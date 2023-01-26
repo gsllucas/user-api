@@ -19,9 +19,7 @@ stockRouter.get('/get/:ticker', async (req: Request, res: Response) => {
   // const options = {
   //   method: 'POST',
   //   headers: {
-  //     'content-type': 'application/x-www-form-urlencoded',
-  //     'X-RapidAPI-Key': '480a492f7dmsh94a55e3cfbe11f4p12d875jsn8df74373ce2f',
-  //     'X-RapidAPI-Host': 'yahoo-finance97.p.rapidapi.com',
+  //     'content-type': 'application/x-www-form-urlencoded'
   //   },
   //   body: encodedParams,
   // };
